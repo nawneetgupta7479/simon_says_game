@@ -1,0 +1,68 @@
+body{
+    text-align: center;
+     
+background: radial-gradient(circle, rgba(6,201,238,1) 0%, rgba(187,14,204,1) 96%);
+
+}
+.btn{
+    height: 10rem;
+    width: 10rem;
+    border: 0.4rem solid black;
+    margin: 0.3rem;
+}
+
+.up-container{
+    display: flex;
+    justify-content: center;
+    
+}
+.down-container{
+    display: flex;
+    justify-content: center;
+}
+.red{
+    background-color: red;
+    border-top-left-radius: 13rem;
+    
+}
+.yellow{
+    background-color: yellow;
+    border-top-right-radius: 13rem;
+}
+.blue{
+   
+    background-color: blue;
+    border-bottom-right-radius: 13rem;
+}
+.green{
+    background-color: green;
+    border-bottom-left-radius: 13rem;
+}
+.flash{
+    background-color: white;
+}
+.userFlash{
+    background-color: white;
+}
+.wrong{
+    background-color: brown;
+    z-index: 4;
+}
+h1{
+   
+    color: purple;
+    
+}
+h2{
+    color: brown;
+
+}
+h3{
+    color: white;
+}
+.audio{
+    color: transparent;
+    background-color: transparent;
+    display: none;
+    opacity: -1;
+}
